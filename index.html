@@ -6,29 +6,31 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="">
-  <nav class="fixed z-50 hover:bg-white">
-    <div class="flex uppercase mx-40 py-4 gap-20">
-      <div class="pl-12">
+  <nav class="fixed z-50 hover:bg-white text-white hover:text-black">
+    <div class="flex uppercase mx-40 text-lg font-semibold">
+      <div class="pl-12 pt-6 pr-6">
         <img class="w-52 h-10" src="./logo.png" alt="">
       </div>
       <div class="flex justify-around w-[660px]">
-        <a href="">Planeeri</a>
-        <a href="">Avasta</a>
-        <a href="">Naudi</a>
-        <a href="">Viikingite saar</a>
-        <a href="">Info</a>
+        <a href="" class="hover:border-b-4 border-red-400 p-6">Planeeri</a>
+        <a href="" class="hover:border-b-4 border-red-400 p-6">Avasta</a>
+        <a href="" class="hover:border-b-4 border-red-400 p-6">Naudi</a>
+        <a href="" class="hover:border-b-4 border-red-400 p-6">Viikingite saar</a>
+        <a href="" class="hover:border-b-4 border-red-400 p-6">Info</a>
       </div>
-      <div class="flex">
-        <select name="" id="">
+      <div class="flex px-8 gap-3">
+        <select name="" id="" class="bg-transparent">
             <option value="">FI</option>
             <option value="">EN</option>
             <option value="" selected>ET</option>
         </select>
-        <img class="h-10 w-10" src="https://openweathermap.org/img/w/01d.png" alt="">
-        <p class="mt-2">12.2°C</p>
-        <svg class="h-5 w-5 mt-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <img class="h-10 w-10 mt-5" src="https://openweathermap.org/img/w/01d.png" alt="">
+        <p class="mt-6">12.2°C</p>
+        <div class="px-5 mt-7">
+          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="#ea5477" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
         </svg>
+        </div>
       </div>
     </div>
       
