@@ -40,28 +40,28 @@
   <header>
     <div class="relative h-[75vh] w-full">
       <div class="fixed h-[75vh] w-full">
-        <div>
+        <div class="slides hidden">
           <img src="https://visitsaaremaa.ee/wp-content/uploads/2020/12/Saaremaa-sundmused-2021-header-scaled.jpg" alt="" class="object-cover h-[75vh] ">
           <div class="relative left-[200px] bottom-[328px]">
             <p class="text-6xl text-white font-semibold pb-6">Sündmused</p>
             <a href="" class="text-lg text-white">Vaata lisaks →</a>
           </div>
         </div>
-        <div>
+        <div class="slides hidden">
           <img src="https://visitsaaremaa.ee/wp-content/uploads/2023/01/3-paivaa-saarenmaallaa-2023-scaled.jpg" alt="" class="object-cover w-full h-[75vh] ">
           <div class="relative left-[200px] bottom-[328px]">
             <p class="text-6xl text-white font-semibold pb-6">Transport</p>
             <a href="" class="text-lg text-white">Vaata lisaks →</a>
           </div>
         </div>
-        <div>
+        <div class="slides hidden">
           <img src="https://visitsaaremaa.ee/wp-content/uploads/2020/05/majutuse-header-scaled.jpg" alt="" class="object-cover w-full h-[75vh] ">
           <div class="relative left-[200px] bottom-[328px]">
             <p class="text-6xl text-white font-semibold pb-6">Majutus</p>
             <a href="" class="text-lg text-white">Vaata lisaks →</a>
           </div>
         </div>
-        <div>
+        <div class="slides hidden">
           <img src="https://visitsaaremaa.ee/wp-content/uploads/2022/12/Naba-1.jpg" alt="" class="object-cover w-full h-[75vh] ">
           <div class="relative left-[200px] bottom-[328px]">
             <p class="text-6xl text-white font-semibold pb-6">Söök</p>
@@ -69,8 +69,14 @@
           </div>
         </div>
       </div>
+      <div class="text-center">
+        <span class="h-[15px] w-[15px] mr-1 bg-transparent rounded-[50%] inline-block" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
     
   </header>
+  <script src="script.js"></script>
 </body>
 </html>
