@@ -6,10 +6,10 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="overflow-auto">
-  <nav class="fixed z-50 hover:bg-white text-white hover:text-black">
+  <nav class="fixed z-50 hover:bg-white text-white hover:text-black group">
     <div class="flex uppercase mx-40 text-lg font-semibold">
       <div class="pl-12 pt-5 pr-6">
-        <img class="w-52 h-10" src="./logo.png" alt="">
+        <img class="w-52 h-10 group-hover:filter group-hover:invert" src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://visitsaaremaa.ee/mosaaremaa/wp-content/uploads/2021/06/VSlogo_white_transp-1.png" alt="">
       </div>
       <div class="flex justify-around w-[660px]">
         <a href="" class="hover:border-b-4 border-red-400 p-6">Planeeri</a>
@@ -35,9 +35,8 @@
         </div>
       </div>
     </div>
-      
   </nav>
-  <header>
+  <header class="z-[-1]">
     <div class="relative h-[75vh] w-full">
       <div class="fixed h-[75vh] w-full">
         <div class="slides hidden">
@@ -75,8 +74,14 @@
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
     </div>
-    
   </header>
+  <main class="pt-8 relative bg-white">
+    <h1 class="w-[1120px] text-6xl font-semibold pl-[200px] py-7">Avasta Saaremaa</h1>
+    <div class="grid grid-cols-2 my-2 w-[1140px] place-self-center">
+      <img class="h-[400px] w-[550px] overflow-hidden hover:scale-125 duration-700 rounded-md" src="https://visitsaaremaa.ee/wp-content/uploads/2024/11/hanso-oige.jpg" alt="">
+      <img src="logo.png" alt="">
+    </div>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>
