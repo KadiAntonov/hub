@@ -107,18 +107,24 @@
         <img class="h-[400px] w-[1130px] hover:scale-[1.20] duration-[1000ms] rounded-md object-cover" src="https://visitsaaremaa.ee/wp-content/uploads/2022/12/Liitu-visit-saaremaa-uudiskirjaga-scaled.jpg" alt="">
         <p class="relative bottom-[75px] left-[40px] z-2 text-white text-2xl font-bold">Liitu uudiskirjaga</p>
       </div>
-      <div class="flex flex-col items-center my-6 w-[1140px] place-self-center relative bottom-[350px] left-[290px]">
-        <label for="name" class="text-white font-bold text-lg">Sinu nimi</label><br>
-        <input type="text" name="name" id="" class="w-[340px] h-[41px] p-[10px] border-2 border-gray text-sm"><br>
-        <label for="email" class="text-white font-bold text-lg">Sinu e-mail</label><br>
-        <input type="email" class="w-[340px] h-[41px] p-[10px] border-2 border-gray text-sm"><br>
+      <div class="flex flex-col items-center my-6 w-[1140px] place-self-center relative bottom-[350px] left-[290px] gap-[20px]">
+        <div class="flex flex-col items-center">
+          <label for="name" class="text-white font-bold text-lg">Sinu nimi</label>
+          <input type="text" name="name" id="" class="w-[340px] h-[41px] p-[10px] border-2 border-gray text-sm">
+        </div>
+        <div class="flex flex-col items-center">
+          <label for="email" class="text-white font-bold text-lg">Sinu e-mail</label>
+          <input type="email" class="w-[340px] h-[41px] p-[10px] border-2 border-gray text-sm">
+        </div>
         <div class="inline">
           <input type="checkbox" name="checkbox" id="">
-          <label for="checkbox">Olen tutvunud <a href="">andmetöötluse põhimõtetega</a></label><br>
+          <label for="checkbox" class="text-white ">Olen tutvunud <a href="" class="decoration-solid">andmetöötluse põhimõtetega</a></label><br>
         </div>
-        <button>Liitun uudiskirjaga</button>
-        <p>Uudiskirjast saad häid vihjeid, kuidas planeerida oma järgmine saarepuhkus.</p>
-        <p>Kirjutame, mida uut ja põnevat meitel on, mida siinsetel saartel teha.</p>
+        <button class="text-white bg-[#ea4570] p-[10px] font-bold rounded">Liitun uudiskirjaga</button>
+        <div>
+          <p class="text-xs text-white">Uudiskirjast saad häid vihjeid, kuidas planeerida oma järgmine saarepuhkus.</p>
+          <p class="text-xs text-white">Kirjutame, mida uut ja põnevat meitel on, mida siinsetel saartel teha.</p>
+        </div>
       </div>
     </div>
   </main>
